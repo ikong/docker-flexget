@@ -9,7 +9,8 @@ RUN apk --no-cache add tzdata ca-certificates \
   && apk del tzdata
 
 # expose port for flexget webui
-EXPOSE 5050 5050/tcp 
+EXPOSE 5050 5050/tcp
+VOLUME /root/.flexget
 
 COPY bootstrap.sh /root/bootstrap.sh
 
