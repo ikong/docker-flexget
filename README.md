@@ -3,7 +3,5 @@
 Flexget in a slim linux container
 ==============
 
-mount volumes for
-/root/.flexget/config.yml
-and
-/root/.flexget/db-config.sqlite
+mount volume for
+/root/.flexget
