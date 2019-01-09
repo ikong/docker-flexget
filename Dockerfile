@@ -1,4 +1,4 @@
-FROM frolvlad/alpine-python3
+FROM python:3-alpine
 
 RUN apk --no-cache add tzdata ca-certificates \
   && pip install -I flexget transmissionrpc \
